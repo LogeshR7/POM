@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testsqlcases.TextBoxCase">
+      <class name="GetExcelDataToPOM.TextBoxCase">
         <methods>
           <include name="Startup"/>
-          <include name="form"/>
           <include name="quit"/>
+          <include name="s"/>
+          <include name="form" invocation-numbers="0"/>
         </methods>
-      </class> <!-- testsqlcases.TextBoxCase -->
+      </class> <!-- GetExcelDataToPOM.TextBoxCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
